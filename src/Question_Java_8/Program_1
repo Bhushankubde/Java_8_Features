@@ -1,0 +1,13 @@
+package Question_Java_8;
+
+ interface Sqaure{
+     int calculate(int x);
+ }
+
+public class Program_1{
+    public static void main(String[] args) {
+        //Lambda Function
+        Sqaure sqaure = (int x)-> x * x;
+        System.out.println(sqaure.calculate(5));
+    }
+}
